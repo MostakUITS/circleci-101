@@ -11,4 +11,4 @@ RAILS_ENV: test
 environment:
 POSTGRES_USER: user
 POSTGRES_DB: user_test
-working_directory: ~/repo
+
