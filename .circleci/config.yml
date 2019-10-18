@@ -4,12 +4,9 @@ jobs:
     machine:
       image: ubuntu-1604:201903-01
     steps:
-      - run: 
+        run: 
           echo 'sdfksdfnkl'
     
-
-
-
 commands:
   sayhello:
     description: "A very simple command for demonstration purposes"
