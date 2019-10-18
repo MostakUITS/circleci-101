@@ -5,7 +5,7 @@ jobs:
       - image: "circleci/node:9.6.1"
     steps:
       - sayhello:
-          to: "Abu hasnat"
+          # to: "Abu hasnat"
 commands:
   sayhello:
     description: "A very simple command for demonstration purposes"
