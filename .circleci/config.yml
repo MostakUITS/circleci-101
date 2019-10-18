@@ -1,4 +1,11 @@
 version: 2.1
+jobs:
+  myjob:
+    docker:
+      - image: "circleci/node:9.6.1"
+    steps:
+      - sayhello:
+          to: "Lev"
 commands:
   sayhello:
     description: "A very simple command for demonstration purposes"
@@ -8,10 +15,3 @@ commands:
         default: "Hello World"
     steps:
       - run: echo << parameters.to >>
-jobs:
-  myjob:
-    docker:
-      - image: "circleci/node:9.6.1"
-    steps:
-      - sayhello:
-          to: "Lev"
