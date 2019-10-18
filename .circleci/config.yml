@@ -1,9 +1,10 @@
 version: 2
 jobs:
   build:
-    step:
-      -run: 
-        echo 'sdfksdfnkl'
+    steps:
+      - run: 
+          command:
+            echo 'sdfksdfnkl'
     
 
 
